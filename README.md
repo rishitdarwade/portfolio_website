@@ -22,10 +22,5 @@ This is a personal portfolio website showcasing my projects, skills, and experie
 - **Frameworks/Libraries:** Bootstrap / Tailwind CSS (if used)  
 - **Hosting:** GitHub Pages / Vercel / Netlify (mention where it's hosted)  
 
-## 📦 Installation & Setup (If Applicable)  
-If you want to run the project locally, follow these steps:  
 
-1. Clone the repository:  
-   ```sh
-   git clone https://github.com/your-username/your-portfolio.git
 
