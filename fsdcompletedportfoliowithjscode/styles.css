@@ -1,0 +1,192 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Header */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#toggle-mode {
+    background: white;
+    color: #4CAF50;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Main Sections */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* My Photo Section */
+#photo {
+    text-align: center;
+    padding: 50px 20px;
+    background: #eee;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.photo-container img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #4CAF50;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.photo-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Projects */
+.project {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+/* Contact Form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+body.dark-mode header {
+    background: #333;
+}
+
+body.dark-mode .project {
+    background: #444;
+}
+
+body.dark-mode footer {
+    background: #111;
+}
+
+body.dark-mode .photo-container img {
+    background: #555;
+}
+
+body.dark-mode .photo-container {
+    background: #555;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .project {
+        width: 90%;
+    }
+}

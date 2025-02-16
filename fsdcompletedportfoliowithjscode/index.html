@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#photo">My Photo</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="toggle-mode">Dark/Light Mode</button></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <h1>Rishit Darwade </h1>
+            <p>ROS2 dev/Embedded Systems Engineer @ MIT TECH TEAM(Robocon) Electrical & Computer Engineering student at MIT WPU</p>
+        </section>
+    </header>
+
+    <!-- Professional Photo Section -->
+    <section id="photo">
+        <h2>Rishit Darwade</h2>
+        <div class="photo-container">
+            <img src="rishit.JPG" alt="My Professional Photo">
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Rishit Darwade, a controls engineer skilled in C, C++, and Python. As a member of the MIT Tech Team at MITWPU, Pune, I participate in the annual DD Robocon competition, contributing to innovative robotics projects. Currently, I am enhancing my expertise in ROS2 and Computer Vision with OpenCV.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <ul class="left-skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+            </ul>
+            <ul class="right-skills">
+                <li>GitHub</li>
+                <li>OpenCV</li>
+                <li>Embedded C programming</li>
+                <li>Robotics</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <a href="differential_drive.jpeg" target="_blank"><h3>Differential Drive Robot using ROS</h3></a>
+            <img src="differential_drive.jpeg" alt="Project 1">
+            <p>A brief description of the first project.</p>
+        </div>
+        <div class="project">
+            <a href="colour_sorter.jpeg" target="_blank"><h3>Automated Colour Sorting using OpenCV</h3></a>
+            <img src="colour_sorter.jpeg" alt="Project 2">
+            <p>A brief description of the second project.</p>
+        </div>
+        <div class="project center-project">
+            <a href="robocon theme robots.jpeg" target="_blank"><h3>Robocon 2024 theme robots</h3></a>
+            <img src="robocon theme robots.jpeg" alt="Project 3">
+            <p>A brief description of the third project.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/rishit-darwade-64250229a/">LinkedIn</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
